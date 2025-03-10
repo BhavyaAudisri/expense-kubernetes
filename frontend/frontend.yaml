@@ -5,10 +5,10 @@ metadata:
   namespace: expense
   # labels of deployment resource
   labels:
-    app: mysql
-    tier: mysql
-    project: expense
-spec:
+    app: frontend
+    tier: web
+    project: expense    
+    
   replicas: 1
   selector:
     matchLabels:
